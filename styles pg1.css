@@ -78,17 +78,19 @@ header{
     transform: scale(1.1);
 }
 
+
 nav a{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     color: white;
-    margin-left: 4rem;
+    margin-left: 11rem;
     text-align: left;
     font-weight: 500;
     transition: 0.3s ease;
     border-bottom: 3px solid transparent;
     text-shadow: 1px 1px 0 rgb(3, 3, 3);
     font-family: "Merriweather", serif;
-    padding: 0.01rem;
+    padding: 1px;
+    gap: 30rem;
     
 }
 
@@ -447,18 +449,20 @@ p {
 }
 
 @media only screen and (max-width: 480px){
-   nav{
+     nav{
         flex-direction: column;
         position: absolute;
         display: none;
         top: 0;
         right: 0;
-        width: 45%;
+        padding-left: 0px;
+        width: 45;
+        text-align: center; 
         background-color: rgba(11, 9, 128, 0.637);
         border-top: 0.1rem solid;
         text-shadow: 2px 2px 0 rgb(0, 0, 0);
         border-radius: 5px;
-    } 
+    }   
     .typing-text span::before{
     content: "Python";
     color: rgb(255, 230, 0);
