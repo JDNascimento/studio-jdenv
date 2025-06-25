@@ -36,7 +36,6 @@ body {
   zoom: 69%;
   }
 
- 
 header{
     margin-top: 0px;
     position: fixed; 
@@ -442,6 +441,9 @@ p {
     .studio img {
             zoom: 60%;
     }
+     iframe{
+    zoom: 60%;
+ }
 }
 
 @media only screen and (max-width: 480px){
@@ -475,6 +477,6 @@ p {
         gap: 10px;
     }
     .studio img {
-            zoom: 44%;
+            zoom: 60%;
     }
     }    
